@@ -44,7 +44,7 @@ public class ReadQRCode : MonoBehaviour
                     qrText = result.Text;
                     txt.text = qrText;
                     // sphere = sphere object
-                    // 
+                    // cube = cube object
 
                 }
             }
