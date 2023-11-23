@@ -12,6 +12,8 @@ public class ReadQRCode : MonoBehaviour
     public ARCameraManager CameraManager;
     public Text txt;
 
+    public string qrText;
+
     void Update()
     {
         if (CameraManager.TryAcquireLatestCpuImage(out XRCpuImage image))
@@ -39,9 +41,12 @@ public class ReadQRCode : MonoBehaviour
                 // ui output
                 if (result != null)
                 {
-                    txt.text = result.Text;
-                }
+                    qrText = result.Text;
+                    txt.text = qrText;
+                    // sphere = sphere object
+                    // 
 
+                }
             }
         }
     }
