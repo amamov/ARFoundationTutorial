@@ -4,8 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01.Scenes/00Main.unity
+    guid: 8c245098e76598541849f222e0c04fd3
+  - enabled: 1
+    path: Assets/01.Scenes/01LineDrawing.unity
+    guid: bb17cc50e6c5d7e4b8fa84f2c191963f
+  - enabled: 1
+    path: Assets/01.Scenes/05FaceTracking.unity
+    guid: b4e44bf6aa9b5ba45849ed18a7801b30
+  - enabled: 1
+    path: Assets/01.Scenes/07ARObjectInteraction.unity
+    guid: 7846a6d0953b3a842aa082c1cd5b5a9c
+  - enabled: 1
+    path: Assets/01.Scenes/06Shooting.unity
+    guid: cce11d01507ef174b98ce93d5df8c46b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 154826dd1b5163044b43719739900406, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 44b120fd70abd2a4f8b0d4406c9a76f5, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ff530ec0ccd742742b307d529877e7eb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 268e5576ce813af4d986cd59eeb1992c, type: 2}
