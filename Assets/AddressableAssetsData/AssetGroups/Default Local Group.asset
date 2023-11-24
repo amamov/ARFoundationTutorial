@@ -20,17 +20,20 @@ MonoBehaviour:
   - m_GUID: 725902fd856d96a4da529d307609fac1
     m_Address: Assets/03.Prefabs/AR Default Face.prefab
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Download
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de1f125c67e10cf4ebdff23b692360df
     m_Address: Assets/05.Resources
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Download
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: baf5d9b8ba8112549a27ce2caa8c4f67
     m_Address: Assets/Sci Fi Gun Light
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Download
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7ead9f7345333384a88787e8120e1a19, type: 2}
